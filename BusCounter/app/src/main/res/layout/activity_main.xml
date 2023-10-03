@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/start_text"
+        android:textColor="#00ff00"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/button_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/selector_button"
+        android:padding="32dp"
+        android:src="@drawable/add_24px" />
+
+    <ImageButton
+        android:id="@+id/button_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:background="@drawable/selector_button"
+        android:padding="32dp"
+        android:src="@drawable/remove_24px" />
+
+    <Button
+        android:id="@+id/text_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reset_text"
+        android:backgroundTint="#929292"
+        android:visibility="invisible"
+
+        android:textSize="42sp" />
+
+
+    <TextView
+        android:id="@+id/text_passengers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="@string/start_passengers"
+        android:textColor="#000000"
+        android:textSize="80sp" />
+
+</FrameLayout>
