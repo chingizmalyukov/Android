@@ -1,10 +1,9 @@
 package com.example.buscounter
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.core.view.isVisible
+import androidx.core.content.ContextCompat
 import com.example.buscounter.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,13 +17,13 @@ class MainActivity : AppCompatActivity() {
 
         binding.buttonPlus.setOnClickListener {
             binding.buttonMinus.isEnabled = true
-            binding.textStatus.setTextColor(Color.BLUE)
+            binding.textStatus.setTextColor(ContextCompat.getColor(this, R.color.blue))
             if (counter >= 49) {
                 counter = 50
                 binding.textReset.visibility = View.VISIBLE
                 binding.buttonPlus.isEnabled = false
-                binding.textStatus.text = "Too many passengers"
-                binding.textStatus.setTextColor(Color.RED)
+                binding.textStatus.text = getString(R.string.finish_text)
+                binding.textStatus.setTextColor(ContextCompat.getColor(this, R.color.red))
             } else {
                 counter++
                 binding.textStatus.text = "passenger seats left ${50 - counter}"
@@ -33,11 +32,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.buttonMinus.setOnClickListener {
-            binding.textStatus.setTextColor(Color.BLUE)
+            binding.textStatus.setTextColor(ContextCompat.getColor(this, R.color.blue))
             if (counter == 1) {
                 counter = 0
-                binding.textStatus.text = "All seats are free"
-                binding.textStatus.setTextColor(Color.GREEN)
+                binding.textStatus.text = getString(R.string.start_text)
+                binding.textStatus.setTextColor(ContextCompat.getColor(this, R.color.green))
                 binding.buttonMinus.isEnabled = false
             } else {
                 counter -= 1
@@ -52,8 +51,8 @@ class MainActivity : AppCompatActivity() {
             binding.buttonMinus.isEnabled = false
             binding.buttonPlus.isEnabled = true
             binding.textReset.visibility = View.INVISIBLE
-            binding.textStatus.text = "All seats are free"
-            binding.textStatus.setTextColor(Color.GREEN)
+            binding.textStatus.text = getString(R.string.start_text)
+            binding.textStatus.setTextColor(ContextCompat.getColor(this, R.color.green))
             binding.textPassengers.text = counter.toString()
         }
     }

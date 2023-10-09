@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">BusCounter</string>
-    <string name="start_text">All seats are free </string>
+    <string name="start_text">All seats are free</string>
+    <string name="middle_text">All seats are free</string>
+    <string name="finish_text">Too many passengers</string>
     <string name="reset_text">Reset </string>
     <string name="start_passengers">0 </string>
 </resources>

@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.button.setOnClickListener {
-            binding.textView.text = "And now you are GAY!"
+            binding.textView.text = getString(R.string.app_name)
             binding.plusOneButton.isEnabled = false
         }
     }
