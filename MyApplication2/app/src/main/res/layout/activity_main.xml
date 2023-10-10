@@ -27,6 +27,12 @@
         android:textSize="20sp"
         tools:text="@tools:sample/lorem/random" />
 
+    <ImageView
+        android:src="@drawable/android_icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp" />
+
+
     <Button
         android:id="@+id/mainButton"
         android:layout_width="wrap_content"
