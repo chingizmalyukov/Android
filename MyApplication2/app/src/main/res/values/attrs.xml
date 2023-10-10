@@ -1,7 +1,0 @@
-<resources>
-    <declare-styleable name="ButtonBlockView">
-        <attr name="message_text" format="string" />
-        <attr name="button_text" format="string" />
-        <attr name="background_color" format="color" />
-    </declare-styleable>
-</resources>
