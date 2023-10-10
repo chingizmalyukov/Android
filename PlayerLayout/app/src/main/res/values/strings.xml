@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PlayerMaket</string>
+    <string name="artist">Artist</string>
+    <string name="song_name">Song name</string>
+</resources>
