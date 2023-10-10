@@ -1,3 +1,0 @@
-/MyApplication2/
-/MyApplication/
-.gitignore
