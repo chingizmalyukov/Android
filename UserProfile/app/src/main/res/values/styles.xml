@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Default" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textAppearance">@color/black</item>
+    </style>
+
+    <style name="PointsCount" parent="Default">
+        <item name="android:textAppearance">@color/grey</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="buttonTint">@color/turquoise</item>
+    </style>
+
+</resources>

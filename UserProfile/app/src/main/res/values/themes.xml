@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UserProfile" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="boxBackgroundColor">@color/purple</item>
+        <item name="buttonTint">@color/turquoise</item>
+    </style>
+
+    <style name="Theme.UserProfile" parent="Base.Theme.UserProfile" />
+</resources>
