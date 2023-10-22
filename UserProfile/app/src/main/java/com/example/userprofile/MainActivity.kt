@@ -91,6 +91,8 @@ class MainActivity : AppCompatActivity() {
                 change(true)
             } else {
                 notificationTrigger = true
+                checkBoxOne.isChecked = false
+                checkBoxTwo.isChecked = false
                 change(false)
 
             }

@@ -28,7 +28,8 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:lines="1"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:text="@string/top_string" />
 
             <TextView
                 android:id="@+id/textTwo"
@@ -36,14 +37,15 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:lines="1"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:text="@string/bot_string" />
 
         </LinearLayout>
     </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="170dp"
 
         android:background="@android:color/darker_gray" />
 

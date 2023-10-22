@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ViewGroup</string>
+    <string name="top_string">Top string</string>
+    <string name="bot_string">Bottom string</string>
 </resources>

@@ -10,8 +10,9 @@
         <item name="android:textAppearance">@color/grey</item>
     </style>
 
-    <style name="CheckBoxStyle">
+    <style name="MyCheckBoxStyle" parent="Widget.Material3.CompoundButton.CheckBox">
         <item name="buttonTint">@color/turquoise</item>
+        <item name="buttonIconTint">@color/white</item>
     </style>
 
 </resources>

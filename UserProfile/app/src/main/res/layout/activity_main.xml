@@ -106,7 +106,6 @@
 
     <com.google.android.material.checkbox.MaterialCheckBox
         android:id="@+id/checkbox_one"
-        style="@style/CheckBoxStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/margin"
@@ -119,7 +118,6 @@
 
     <com.google.android.material.checkbox.MaterialCheckBox
         android:id="@+id/checkbox_two"
-        style="@style/CheckBoxStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/margin"
